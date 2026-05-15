@@ -1,0 +1,97 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNOj0FFDJeOwDvbmQ0CWeUD",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sanskrutibote11/SaNsKruti/blob/main/ass%20no.%207\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gxTrkylC_miN",
+        "outputId": "fd27cde4-6146-4327-a569-cc71ceeed793"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(7, 4, 6, 9, 11, 12, 13, 15, 20, 2, 1, 17, 10, 14, 19, 3, 8, 21)\n",
+            "<class 'tuple'>\n",
+            "18\n",
+            "(2, 1, 17, 10, 14, 19, 3, 8, 21)\n",
+            "(2, 1, 17, 10, 14, 19, 3, 8, 21)\n",
+            "(7, 4, 6, 9, 11, 12, 13, 15, 20, 2, 1, 17, 10, 14, 19, 3, 8, 21)\n",
+            "True\n",
+            "False\n",
+            "False\n"
+          ]
+        }
+      ],
+      "source": [
+        "# -*- coding: utf-8 -*-\n",
+        "\"\"\"\n",
+        "Created on Fri May 15 09:33:22 2026\n",
+        "\n",
+        "@author: Microsoft\n",
+        "\"\"\"\n",
+        "\n",
+        "#tuple / exp no. 7 / it is immutable data type\n",
+        "\n",
+        "girls=(7,4,6,9,11,12,13,15,20)\n",
+        "\n",
+        "boys=(2,1,17,10,14,19,3,8,21)\n",
+        "\n",
+        "\n",
+        "# concatination operation\n",
+        "\n",
+        "a=girls+boys\n",
+        "print(a)\n",
+        "\n",
+        "#properties check\n",
+        "print(type(a))\n",
+        "print(len(a))\n",
+        "\n",
+        "\n",
+        "#slilcing operation\n",
+        "\n",
+        "print(a[9:])\n",
+        "\n",
+        "print(a[9:18])\n",
+        "\n",
+        "print(a[:18])\n",
+        "\n",
+        "#membership operation\n",
+        "\n",
+        "print(7 in a)\n",
+        "print(16 in a )\n",
+        "print(716 in a)"
+      ]
+    }
+  ]
+}
